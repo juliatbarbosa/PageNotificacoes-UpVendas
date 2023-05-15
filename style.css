@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-page {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 10px;
+}
+
+.container-icones {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.icon-menu img {
+    margin: 0 0 5px 5px;
+    width: 28px;
+}
+
+.icon img {
+    margin: 10px 0 5px 5px;
+    width: 28px;
+}
+
+#icon-branco {
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11cc59;
+    border-radius: 10px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0 10px;
+    
+}
+
+
+.container-notificacao p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.notif-text{
+    display: flex;
+    flex-direction: column; 
+
+}
+
+.notif-text img {
+    width: 35px;
+    height: 3px;
+    margin-bottom: 16px;
+}
+
+.pesquisa {
+    padding-left: 32px;
+    padding-top: 3px;
+    width: 600px;
+    height: 30px;
+    border-radius: 6px;
+    border: transparent;
+    box-shadow: 0px 0px 15px rgb(207, 205, 205);
+    background-image: url('assets/images/icons/lupa-verde.png');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: left 2% center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-dados {
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+}
+
+.content-dados-text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.content-dados-text p {
+    font-size: 14px;
+}
+
+.icones-dados{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.icone-lateral{
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(207, 205, 205);
+    border-radius: 10px;
+
+}
+
+.icone-lateral img{
+    width: 24px;
+}
+
+.container-direita{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.styled-table {
+    width: 90vw;
+    height: 100vh;
+    margin: 25px 0 25px 10px;
+    font-size: 11px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.styled-table thead td {
+    background-color: black;
+    color: #3f4755;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 5px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid white;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+.styled-table img {
+    width: 20px;
+}
