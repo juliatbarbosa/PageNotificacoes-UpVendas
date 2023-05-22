@@ -45,7 +45,7 @@ body {
     border-radius: 10px;
 }
 
-.principal{
+.principal {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -56,18 +56,16 @@ body {
     justify-content: space-between;
     flex: 1;
     margin: 0 0 5px 10px;
-    
 }
 
-
-.container-notificacao p{
+.container-notificacao p {
     font-weight: 500;
     font-size: 20px;
 }
 
-.notif-text{
+.notif-text {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 
 }
 
@@ -108,27 +106,26 @@ body {
     font-size: 14px;
 }
 
-.icones-dados{
+.icones-dados {
     display: flex;
     gap: 5px;
     justify-content: center;
 }
 
-.icone-lateral{
+.icone-lateral {
     display: flex;
     justify-content: center;
     padding: 5px 10px;
     background-color: white;
     box-shadow: 0px 0px 15px rgb(207, 205, 205);
     border-radius: 10px;
-
 }
 
-.icone-lateral img{
+.icone-lateral img {
     width: 24px;
 }
 
-.container-direita{
+.container-direita {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -145,14 +142,19 @@ body {
 
 thead, tbody {
     display: block;
+    border-radius: 0 0 10px 10px;
 }
 
 tbody {
     overflow-y: scroll;
     height: 500px;
+    padding-right: 10px;
+    background-color: white;
 }
+
 tbody::-webkit-scrollbar {
     width: 5px;
+    height: 8px;
 }
 
 tbody::-webkit-scrollbar-track {
@@ -163,13 +165,14 @@ tbody::-webkit-scrollbar-track {
 
 tbody::-webkit-scrollbar-thumb {
     background-color: #bebebe;
+    border-radius: 20px;
 }
 
 .styled-table {
     width: 100%;
     height: 500px;
     font-size: 12px;
-    border-collapse: collapse;
+    border-radius: 10px;
 }
 
 
@@ -184,25 +187,26 @@ tbody::-webkit-scrollbar-thumb {
     align-items: center;
 
 }
+
 .styled-table td {
     text-align: left;
-    width: auto;
+    width: 100%;
     height: 30px;
     padding: 5px 20px;
 }
 
 .styled-table thead td {
     top: 0;
-    width: 99%;
+    width: 100%;
     height: 30px;
     border-bottom: 2px solid #11cc59;
     background-color: white;
     color: #3f4755;
     text-align: left;
     position: sticky;
-    padding: 5px 10px;
+    padding: 5px 20px;
+    
 }
-
 
 .styled-table img {
     width: 20px;
@@ -211,15 +215,14 @@ tbody::-webkit-scrollbar-thumb {
 table.styled-table tr:nth-child(even){
     background-color:#f6f6f6;
 }
- 
+
 table.styled-table tr:nth-child(odd){
     background-color: white;
 }
 
 .id {
-    display: flex;
-    justify-content: end;
-    align-items: center;
+    width: 20% !important;
+    height: 30px;
 }
 
 
@@ -275,7 +278,6 @@ table.styled-table tr:nth-child(odd){
     align-items: center;
     gap: 5px;
 }
-
 
 .text2 img {
     width: 12px;
